@@ -1,5 +1,5 @@
 import Buttons from "./Buttons";
-import finance from "../../public/Frame 1984078106 (1).png"
+import finance from "../assets/Frame 1984078106 (1).png"
 
 export default function Finance() {
     return (

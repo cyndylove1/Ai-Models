@@ -1,5 +1,5 @@
 import Buttons from "./Buttons";
-import market from "../../public/Frame 1984078106.png"
+import market from "../assets/Frame 1984078106.png"
 
 export default function MarketPrediction() {
     return (

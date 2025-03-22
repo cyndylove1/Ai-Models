@@ -340,16 +340,16 @@ export default function Navbar() {
         {/* Hamburger Icon */}
         <button onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? (
-            <FiX className="text-white text-2xl" /> // Close icon
+            <FiX className="text-white text-2xl" />
           ) : (
-            <FiMenu className="text-white text-2xl" /> // Menu icon
+            <FiMenu className="text-white text-2xl" /> 
           )}
         </button>
       </div>
 
       {/* Mobile Menu Dropdown */}
       {isOpen && (
-        <div className="lg:hidden flex flex-col items-center gap-4 bg-[#03061D] py-4">
+        <div className="lg:hidden flex flex-col items-center gap-4 bg-[#03061D] py-10">
           <ul className="list-none flex flex-col gap-4">
             {[
               "Models",

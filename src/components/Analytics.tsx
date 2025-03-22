@@ -1,5 +1,5 @@
 import Buttons from "./Buttons";
-import analytics from "../../public/Frame 1984078106 (2).png";
+import analytics from "../assets/Frame 1984078106 (2).png";
 
 export default function Analytics() {
     return (

@@ -1,5 +1,5 @@
 import Buttons from "./Buttons";
-import content from "../../public/Frame 1984078106 (4).png";
+import content from "../assets/Frame 1984078106 (4).png";
 
 export default function CustomerSupport() {
     return (

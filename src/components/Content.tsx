@@ -1,5 +1,5 @@
 import Buttons from "./Buttons";
-import content from "../../public/Frame 1984078106 (3).png";
+import content from "../assets/Frame 1984078106 (3).png";
 
 export default function Content() {
     return (
