@@ -307,7 +307,7 @@ export default function CompanyLogo() {
   return (
     <>
       <div>
-        <h6 className="text-center pt-6 pb-10 text-[#667085] text-[16px] leading-[24px] font-[500]">
+        <h6 className="text-center pt-6 pb-10 font-[Plus Jakarta Sans] text-[#667085] font-['figtree] text-[16px] leading-[24px] font-[500]">
           Join 4,000+ companies already growing
         </h6>
         <div className="">

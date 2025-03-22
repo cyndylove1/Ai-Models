@@ -9,7 +9,7 @@ export default function Finance() {
             <h6 className="text-[19px] pt-4 md:pt-0 font-[600] text-[#828282] leading-[100%]">
               Finance
             </h6>
-            <h2 className="lg:text-[42px] text-[32px] font-[600] w-full text-[#22263F] md:w-[80%]">
+            <h2 className="lg:text-[42px]  font-[figtree] text-[32px] font-[600] w-full text-[#22263F] md:w-[80%]">
               Our AI models analyze financial data for confident investments.
             </h2>
             <Buttons

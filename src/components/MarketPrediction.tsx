@@ -9,9 +9,8 @@ export default function MarketPrediction() {
             <h6 className="text-[19px] pt-4 md:pt-0 font-[600] text-[#828282] leading-[100%]">
               Market Prediction
             </h6>
-            <h2 className="lg:text-[42px] text-[32px] w-full font-[600] text-[#22263F]">
-              Use AI insights for smarter business decisions and
-              stay 
+            <h2 className="lg:text-[42px] font-[figtree] text-[32px] w-full font-[600] text-[#22263F]">
+              Use AI insights for smarter business decisions and stay
               competitive.
             </h2>
             <Buttons

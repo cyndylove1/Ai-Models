@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <div className=" justify-between lg:flex hidden items-center px-10 pt-6 ">
+      <div className=" justify-between lg:flex hidden items-center px-10 pt-6">
         {/* logo */}
         <div>
           <span>
@@ -157,20 +157,20 @@ export default function Navbar() {
           </span>
         </div>
         <div>
-          <ul className="list-none flex gap-[24px] justify-center pl-[160px]">
-            <li className="text-[16px] leading-[100%] text-white font-[500]">
+          <ul className="list-none flex gap-[24px] justify-center pl-[140px]">
+            <li className="text-[16px]  font-[figtree] leading-[100%] text-white font-[500]">
               Models
             </li>
-            <li className="text-[16px] leading-[100%] text-white font-[500]">
+            <li className="text-[16px] font-[figtree] leading-[100%] text-white font-[500]">
               Pricing
             </li>
-            <li className="text-[16px] leading-[100%] text-white font-[500]">
+            <li className="text-[16px] font-[figtree] leading-[100%] text-white font-[500]">
               About Us
             </li>
-            <li className="text-[16px] leading-[100%] text-white font-[500]">
+            <li className="text-[16px]  font-[figtree] leading-[100%] text-white font-[500]">
               Contact Us
             </li>
-            <li className="text-[16px] leading-[100%] text-white font-[500]">
+            <li className="text-[16px]  font-[figtree] leading-[100%] text-white font-[500]">
               Custom Models
             </li>
           </ul>
@@ -360,7 +360,7 @@ export default function Navbar() {
             ].map((item, index) => (
               <li
                 key={index}
-                className="text-[16px] text-white font-[500] cursor-pointer"
+                className="text-[16px]  font-[figtree] text-white font-[500] cursor-pointer"
               >
                 {item}
               </li>

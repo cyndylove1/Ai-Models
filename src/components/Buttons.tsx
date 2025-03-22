@@ -14,7 +14,7 @@ export default function Buttons({
   return (
     <button
       type={type}
-      className={`h-[37px] flex items-center justify-center ${className || ""}`}
+      className={`h-[37px] flex items-center font-[figtree] justify-center ${className || ""}`}
       onClick={onClick}
     >
       {text}

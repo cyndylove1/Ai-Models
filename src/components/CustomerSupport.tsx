@@ -9,7 +9,7 @@ export default function CustomerSupport() {
             <h6 className="text-[19px] pt-4 md:pt-0 font-[600] text-[#828282] leading-[100%]">
               Customer Support
             </h6>
-            <h2 className="lg:text-[42px] text-[32px] font-[600] text-[#22263F] w-full ">
+            <h2 className="lg:text-[42px]  font-[figtree] text-[32px] font-[600] text-[#22263F] w-full ">
               Use AI chatbots for instant, personalized customer
               support.
             </h2>

@@ -13,10 +13,10 @@ export default function Models() {
   return (
     <>
       <div className="text-center">
-        <h2 className="pt-20 text-[50px] leading-[62px] font-[600] text-[#22263F]">
+        <h2 className="pt-20 text-[50px] leading-[62px]  font-[figtree]  font-[600] text-[#22263F]">
           AI Models tailored for your <br /> business needs
         </h2>
-        <h5 className="md:text-[22px] text-[20px] leading-[38px] font-[500] lg:w-[70%] px-2 mx-auto text-[#828282] pt-4 pb-6">
+        <h5 className="md:text-[22px] text-[20px] font-[Plus Jakarta Sans] leading-[38px] font-[500] lg:w-[70%] px-2 mx-auto text-[#828282] pt-4 pb-6">
           Leverage the power of AI to automate, analyze, and optimize your
           workflows. Our specialized models are designed to fit different
           business needs
@@ -29,7 +29,7 @@ export default function Models() {
             type="button"
             onClick={() => setActiveButton("Market Prediction")}
             text="Market Prediction"
-            className={`rounded-[8px] w-[158px] transition-all duration-300 ease-in-out m-[3px] h-[36px] text-[16px] font-[600] ${
+            className={`rounded-[8px] w-[158px] font-[figtree] transition-all duration-300 ease-in-out m-[3px] h-[36px] text-[16px] font-[600] ${
               activeButton === "Market Prediction"
                 ? "bg-[#03217f] text-white"
                 : "text-[#A7A7A7]"
@@ -42,7 +42,7 @@ export default function Models() {
             type="button"
             onClick={() => setActiveButton("Finance")}
             text="Finance"
-            className={`rounded-[8px] transition-all duration-300 ease-in-out w-[85px] m-[3px] h-[36px]  font-[600] ${
+            className={`rounded-[8px] transition-all  font-[figtree] duration-300 ease-in-out w-[85px] m-[3px] h-[36px]  font-[600] ${
               activeButton === "Finance"
                 ? "bg-[#03217f] text-white"
                 : "text-[#A7A7A7]"
@@ -52,7 +52,7 @@ export default function Models() {
             type="button"
             onClick={() => setActiveButton("Analytics")}
             text="Analytics"
-            className={`rounded-[8px] w-[96px] transition-all duration-300 ease-in-out m-[3px] h-[36px] font-[600] ${
+            className={`rounded-[8px] w-[96px]  font-[figtree] transition-all duration-300 ease-in-out m-[3px] h-[36px] font-[600] ${
               activeButton === "Analytics"
                 ? "bg-[#03217f] text-white"
                 : "text-[#A7A7A7]"
@@ -62,7 +62,7 @@ export default function Models() {
             type="button"
             onClick={() => setActiveButton("Content Generation")}
             text="Content Generation"
-            className={`rounded-[8px] w-[174px] m-[3px] h-[36px] transition-all duration-300 ease-in-out font-[600] ${
+            className={`rounded-[8px] w-[174px]  font-[figtree] m-[3px] h-[36px] transition-all duration-300 ease-in-out font-[600] ${
               activeButton === "Content Generation"
                 ? "bg-[#03217f] text-white"
                 : "text-[#A7A7A7]"
@@ -72,7 +72,7 @@ export default function Models() {
             type="button"
             text="Customer Support"
             onClick={() => setActiveButton("Customer Support")}
-            className={`rounded-[8px] w-[164px] transition-all duration-300 ease-in-out m-[3px] h-[36px] font-[600] ${
+            className={`rounded-[8px] w-[164px]  font-[figtree] transition-all duration-300 ease-in-out m-[3px] h-[36px] font-[600] ${
               activeButton === "Customer Support"
                 ? "bg-[#03217f] text-white"
                 : "text-[#A7A7A7]"
