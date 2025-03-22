@@ -13,7 +13,7 @@ export default function Models() {
   return (
     <>
       <div className="text-center">
-        <h2 className="pt-20 md:text-[50px] text-[40px] leading-[62px] font-[600] text-[#22263F]">
+        <h2 className="pt-20 text-[50px] leading-[62px] font-[600] text-[#22263F]">
           AI Models tailored for your <br /> business needs
         </h2>
         <h5 className="md:text-[22px] text-[20px] leading-[38px] font-[500] lg:w-[70%] px-2 mx-auto text-[#828282] pt-4 pb-6">
