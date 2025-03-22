@@ -349,7 +349,7 @@ export default function Navbar() {
 
       {/* Mobile Menu Dropdown */}
       {isOpen && (
-        <div className="lg:hidden h-screen flex flex-col items-center gap-4 bg-[#03061D] py-4">
+        <div className="lg:hidden flex flex-col items-center gap-4 bg-[#03061D] py-4">
           <ul className="list-none flex flex-col gap-4">
             {[
               "Models",
@@ -377,7 +377,7 @@ export default function Navbar() {
             <Buttons
               type="button"
               text="Get Started Now"
-              className="w-[140px] bg-white text-[#03061D] text-[14px] rounded-[4px] font-[500] py-2"
+              className="w-[140px] bg-white mb-[10rem] text-[#03061D] text-[14px] rounded-[4px] font-[500] py-2"
             />
           </div>
         </div>
