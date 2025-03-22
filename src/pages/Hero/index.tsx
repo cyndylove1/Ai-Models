@@ -12,7 +12,7 @@ export default function Hero() {
             <h6 className="text-[#7191FF] pt-10 font-[Plus Jakarta Sans] text-center text-[16px] leading-[38px] font-[700]">
               Leverage on Automation
             </h6>
-            <h2 className="text-white text-center font-[figtree] text-[50px] md:text-[76px] leading-[82px] font-[600]">
+            <h2 className="text-white text-center font-[figtree] text-[60px] md:text-[76px] leading-[82px] font-[600]">
               AI Models for <br /> Business Solutions
             </h2>
             <h5 className="text-white text-center font-[Plus Jakarta Sans] px-2 md:text-[22px] text-[20px] leading-[38px] font-[500] py-4 lg:w-[70%] mx-auto">
