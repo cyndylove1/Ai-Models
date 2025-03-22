@@ -6,7 +6,7 @@ export default function MarketPrediction() {
       <>
         <div className="lg:w-[1042px] w-full md:flex-row flex-col rounded-[11px] bg-[#F6FAF3] flex items-center justify-between mx-auto mb-[5rem]">
           <div className="md:px-10 px-4">
-            <h6 className="text-[19px] pt-4 md:pt-0 font-[600] text-[#828282] leading-[100%]">
+            <h6 className="text-[19px] pt-4 font-[inter] font-sans md:pt-0 font-[600] text-[#828282] leading-[100%]">
               Market Prediction
             </h6>
             <h2 className="lg:text-[42px] font-[figtree] text-[32px] w-full font-[600] text-[#22263F]">
