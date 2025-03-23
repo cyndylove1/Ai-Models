@@ -4,7 +4,7 @@ import market from "../assets/Frame 1984078106.png"
 export default function MarketPrediction() {
     return (
       <>
-        <div className="lg:w-[1042px] w-full md:flex-row flex-col rounded-[11px] bg-[#F6FAF3] flex items-center justify-between mx-auto mb-[5rem]">
+        <div className="xl:w-[1042px] w-full md:flex-row flex-col rounded-[11px] bg-[#F6FAF3] flex items-center justify-between mb-[5rem]">
           <div className="md:px-10 px-4">
             <h6 className="text-[19px] py-6 font-[inter] font-sans md:pt-0 font-[600] text-[#828282] leading-[100%]">
               Market Prediction

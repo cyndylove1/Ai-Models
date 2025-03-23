@@ -4,7 +4,7 @@ import finance from "../assets/Frame 1984078106 (1).png"
 export default function Finance() {
     return (
       <>
-        <div className="lg:w-[1042px] w-full md:flex-row flex-col  rounded-[11px] bg-[#F6FAF3] flex items-center justify-between flex mx-auto overflow-hidden mb-[5rem]">
+        <div className="xl:w-[1042px] w-full md:flex-row flex-col  rounded-[11px] bg-[#F6FAF3] flex items-center justify-between flex  mb-[5rem]">
           <div className="md:px-10 px-4">
             <h6 className="text-[19px] font-[inter] font-sans py-6 md:pt-0 font-[600] text-[#828282] leading-[100%]">
               Finance

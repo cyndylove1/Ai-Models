@@ -4,7 +4,7 @@ import content from "../assets/Frame 1984078106 (3).png";
 export default function Content() {
     return (
       <>
-        <div className="lg:w-[1042px] w-full rounded-[11px] bg-[#F6FAF3] md:flex-row flex-col flex items-center justify-between flex mx-auto overflow-hidden mb-[5rem]">
+        <div className="xl:w-[1042px] w-full rounded-[11px] bg-[#F6FAF3] md:flex-row flex-col flex items-center justify-between flex  overflow-hidden mb-[5rem]">
           <div className="md:px-10 px-4">
             <h6 className="text-[19px] font-[inter] font-sans py-6 md:pt-0 font-[600] text-[#828282] leading-[100%]">
               Content Generation
